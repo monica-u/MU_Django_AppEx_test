@@ -1,0 +1,9 @@
+services: 
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/usr/src/app/
+    command:
+     - scripts/start_app.sh
+
